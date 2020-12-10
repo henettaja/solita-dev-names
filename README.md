@@ -1,5 +1,16 @@
 # Getting Started with Create React App
 
+This is an application excercise to Solita Dev Academy 2021. 
+
+I fetch the name data (top-10 of both male and female names in Solita) straight from [their GitHub repository](https://github.com/solita/dev-academy-2021).
+
+My implementation uses [Reactjs](https://github.com/facebook/react) and the [material-table component](https://github.com/mbrn/material-table) to easily and efficiently check all of the given requirements, which were:
+
+1. List names and amounts, order by amount, most popular first
+2. List names in alphabetical order
+3. Return the total amount of all the names
+4. Return the amount of the name given as a parameter
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
