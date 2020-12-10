@@ -30,7 +30,6 @@ function App() {
 
     return (
         <React.Fragment>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
             <MaterialTable columns={columns}
                            data={data}/>
         </React.Fragment>
