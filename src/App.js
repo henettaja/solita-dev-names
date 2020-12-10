@@ -34,6 +34,7 @@ function App() {
             />
             <Paper elevation={10}>
                 <div class="textcontainer">
+                    <h3>Requirements:</h3>
                     <p>1. List names and amounts, order by amount, most popular first - click on the column title "amount" on top of the table</p>
                     <p>2. List names in alphabetical order - click on the column title "names" on top of the table</p>
                     <p>3. Return the total amount of all the names - shown in the lower right hand corner of the table</p>
