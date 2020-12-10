@@ -10,19 +10,16 @@ function App() {
     // URL to fetch from
     const url = "https://raw.githubusercontent.com/solita/dev-academy-2021/main/names.json"
 
-    // Function
-    const getNames = (url) => {
+    // Fetch names on first render
+    React.useEffect(() => {
         console.log("getting names");
         fetch(url)
             .then(response => response.json())
             .then(json => setData(json.names))
             .catch(error => console.log(error))
-    }
-
-    React.useEffect(() => {
-        getNames(url);
     }, []);
 
+    // Columns for the table
     const columns = [
         { title: 'Name', field: 'name' },
         { title: 'Amount', field: 'amount' },
