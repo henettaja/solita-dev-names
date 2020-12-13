@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Solita Dev Academy 2021 exercise
 
 This is an application excercise to Solita Dev Academy 2021. 
 
